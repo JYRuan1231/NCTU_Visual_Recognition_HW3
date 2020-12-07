@@ -82,7 +82,7 @@ When the program was finished, we will get a json file in /result/.
 ```
 ./result/0856566.json
 ```
-## Addional
+## Optional
 If you want to replace the FPN to BiFPN, or evaluate the AP of training model, please use the following parameters to enable these function.
 
 Default:
