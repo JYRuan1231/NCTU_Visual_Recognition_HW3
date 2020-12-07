@@ -33,7 +33,7 @@ num_classes = 21
 epochs = 60
 
 # Scheduler parameter
-learning_rate = 5e-4
+learning_rate = 5e-3
 momentum = 0.9
 weight_decay = 5e-4
 T_mult = 1
@@ -42,7 +42,6 @@ eta_min = 5e-5
 ##################################################
 # Testing Config
 # ##################################################
-
 result_pth = "./result/"
 train_result = "submission_train.json"
 json_name = "0856566.json"  # submit json name
